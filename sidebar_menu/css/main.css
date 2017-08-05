@@ -128,3 +128,12 @@ nav li:first-child {
 
 /*	Step #3 (in main.js): Write your JS to add and remove the active class you created above!
 */
+
+.mask {
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

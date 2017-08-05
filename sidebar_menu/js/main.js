@@ -8,6 +8,7 @@
 $('.hamburger').on('click', function() {
   $('.sidebar').addClass('active');
   $('.content').addClass('slide-right');
+  $('body').prepend('<span class="mask"></span>');
 });
 
 // When the user clicks on .close
@@ -16,4 +17,5 @@ $('.hamburger').on('click', function() {
 $('.close').on('click', function() {
   $('.sidebar').removeClass('active');
   $('.content').removeClass('slide-right');
+  $('body span').remove();
 });
